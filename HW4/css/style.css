@@ -118,11 +118,27 @@ a {
         margin-bottom: 8rem;
     }
 
-    .content img {
+    .content > .img-major {
         display: block;
         margin: auto;
         width: 50%;
         box-shadow: 10px 10px 5px lightblue;
+    }
+
+    .content > .profile {
+        display: block;
+        margin: auto;
+        width: 50%;
+        border-radius: 100%;
+        box-shadow: none;
+    }
+
+    .span-1 {
+        color: goldenrod
+    }
+
+    .span-2 {
+        color: red
     }
 
     .content hr {
@@ -140,10 +156,41 @@ a {
         text-decoration: underline;
     }
 
-    .content p {
-        text-indent: 10%;
+    .content > .about-major {
         font-size: 18px;
-        line-height: 2rem;
-        margin-top: 2rem
+        line-height: 1.5;
+        padding-top: 10px;
+    }
+
+    div.gallery {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #bebcc4;
+        padding: 30px 20px;
+        border-radius: 25px;
+    }
+
+    div.polaroid {
+        width: 25%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    div.polaroid > .img-gallery {
+        width: 100%;
+    }
+
+    div.description {
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    span.about-me, span.span-major {
+        font-weight: lighter;
+    }
+
+    ul > li {
+        font-size: 18px;
     }
 }
