@@ -1,0 +1,149 @@
+body {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* subject.html */
+table {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+thead, tfoot {
+    font-weight: bold;
+    background-color: #f3f2f7;
+}
+
+td, th {
+    border: 1px solid;
+    padding: 1rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.pay-table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    overflow-x: auto;
+}
+
+.pay-status {
+    font-weight: bold;
+}
+/* subject.html */
+
+/* index */
+
+.index-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #fff
+}
+
+/* index */
+
+/* .sarabun-regular {
+  
+} */
+
+/* Smartphone */
+@media (max-width: 640px) {
+
+}
+
+/* Desktop */
+@media (max-width: 1200px) {
+    
+}
+
+/* Large Desktop */
+@media (max-width: 1600px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #00aff0;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .header > nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header > nav > h2 {
+        color: aliceblue;
+    }
+
+    .link > a {
+        text-decoration: none;
+        margin-left: 1rem;
+        font-size: large;
+    }
+
+    .link > a:hover {
+        text-decoration: underline;
+    }
+
+    .container {
+        width: 1140px;
+    }
+
+    .content-cover {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-cover > .content {
+        max-width: 1140px;
+        margin-bottom: 8rem;
+    }
+
+    .content img {
+        display: block;
+        margin: auto;
+        width: 50%;
+        box-shadow: 10px 10px 5px lightblue;
+    }
+
+    .content hr {
+        margin-top: 3rem;
+        margin-bottom: 3rem
+    }
+
+    .content a {
+        color: #00aff0;
+        font-weight: 200;
+        text-decoration: none;
+    }
+
+    .content a:hover {
+        text-decoration: underline;
+    }
+
+    .content p {
+        text-indent: 10%;
+        font-size: 18px;
+        line-height: 2rem;
+        margin-top: 2rem
+    }
+}
