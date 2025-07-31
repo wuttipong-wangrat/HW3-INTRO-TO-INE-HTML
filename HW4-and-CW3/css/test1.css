@@ -1,0 +1,8 @@
+div {
+    border: 8px solid #e6d45a;
+    padding: 20px 80px;
+    background: blue;
+    width: 100px;
+    border-radius: 45px;
+    color: white;
+}

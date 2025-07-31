@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    font-size: 50px;
+    text-align: center;
+}
+.flex-item-left {
+    background-color: #ec5a16;
+    padding: 10px;
+    flex: 1;
+}
+.flex-item-right {
+    background-color: blue;
+    padding: 10px;
+    flex: 1;
+}
+
+@media (max-width: 500px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
